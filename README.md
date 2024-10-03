@@ -1,8 +1,8 @@
-# React + Vite
+## The_Bus 🚌
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Este é um projeto simples em React, criado com o objetivo de introduzir ao Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🔧 Tecnologias Utilizadas
+- React.js: Biblioteca JavaScript para criar interfaces de usuário.
+- Tailwind CSS: Framework de CSS utilitário que facilita a estilização de componentes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
