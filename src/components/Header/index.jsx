@@ -3,27 +3,35 @@ import { FaSearch } from "react-icons/fa";
 
 export default function index() {
   return (
-    <header>
+    <header className="flex justify-evenly w-screen items-center flex-col md:flex-row h-32 text-lg">
       <h2>LOGO</h2>
 
-      <nav>
-        <ul>
+      <nav className="w-5/6 md:w-2/5">
+        <ul className="flex justify-between">
           <li>
-            <a href="#">home</a>
+            <a className="text-cyan-600 cursor-pointer" href="#">
+              home
+            </a>
           </li>
           <li>
-            <a href="#">about us</a>
+            <a className="text-cyan-600 cursor-pointer" href="#">
+              about us
+            </a>
           </li>
           <li>
-            <a href="#">info</a>
+            <a className="text-cyan-600 cursor-pointer" href="#">
+              info
+            </a>
           </li>
           <li>
-            <a href="#">shop</a>
+            <a className="text-cyan-600 cursor-pointer" href="#">
+              shop
+            </a>
           </li>
         </ul>
       </nav>
 
-      <FaSearch />
+      <FaSearch className="md:flex hidden cursor-pointer" />
     </header>
   );
 }
