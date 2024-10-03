@@ -1,9 +1,9 @@
-import React from "react";
+import Header from "../src/components/Header";
 
 export default function App() {
   return (
     <>
-      <h2>Hello World!</h2>
+      <Header />
     </>
   );
 }
